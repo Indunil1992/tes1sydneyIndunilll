@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4c8a1ff5-a72a-4f30-bfd1-d89099629fa9": {
+        "id": "4c8a1ff5-a72a-4f30-bfd1-d89099629fa9",
+        "parent": null,
+        "name": "tes1sydneyIndunilll",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8b9f718e-93c2-4b6e-99d0-e1fcb70395c4"
+        ],
+        "isRemovable": false,
+        "filePath": "tes1sydneyIndunilll"
+      },
+      "8b9f718e-93c2-4b6e-99d0-e1fcb70395c4": {
+        "id": "8b9f718e-93c2-4b6e-99d0-e1fcb70395c4",
+        "parent": "4c8a1ff5-a72a-4f30-bfd1-d89099629fa9",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "tes1sydneyIndunilll/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast2Sydneyteststgingindany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "4c8a1ff5-a72a-4f30-bfd1-d89099629fa9",
+    "openFiles": [
+      "8b9f718e-93c2-4b6e-99d0-e1fcb70395c4"
+    ],
+    "currentFileId": "8b9f718e-93c2-4b6e-99d0-e1fcb70395c4",
+    "resources": {
+      "apigapSoutheast2Sydneyteststgingindany": {
+        "name": "apigapSoutheast2Sydneyteststgingindany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-2",
+          "apiMode": 0,
+          "apiName": "Sydney",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/stging/ind",
+          "resourcePath": "/test/stging/ind",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "tes1sydneyIndunilll",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568110879396
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "tes1sydneyIndunilll",
+      "url": "https://github.com/Indunil1992/tes1sydneyIndunilll"
+    }
+  }
+}
